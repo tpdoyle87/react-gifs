@@ -9,7 +9,7 @@ class SearchBar extends Component {
 
   render() {
     return(
-      <input type="text" onChange={ this.handleClick } className="form-control form-search" />
+      <input type="text" placeHolder="Search Gifs" onChange={ this.handleClick } className="form-control form-search" />
     )
   }
 }
