@@ -15,16 +15,16 @@ body {
 
   .form-search {
     padding: 60px 60px 60px 120px;
-    border: none;
+    border: 1px solid light-gray;
     font-size: 2.6em;
     box-shadow: none;
+    border-radius: 5px;
     &:focus {
       box-shadow: none;
     }
   }
 
   &:before {
-    content: '\F002';
     position: absolute;
     top: 35px;
     left: 60px;
